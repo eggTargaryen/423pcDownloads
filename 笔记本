@@ -5,7 +5,7 @@
 
 git status
 git commit -am '第四次提交'   //将所有修改的文件添加到缓冲区并添加到仓库中
-
+git rm -f <file>     //强制删除
 
 如果出现错误"Train dataset for temp stage can not be filled. Branch training terminated."原因是负样本数量不足，需要增加负样本数量，更新 -bg 参数对应的负样本文件夹,或者是  neg.dat的路径问题
 
